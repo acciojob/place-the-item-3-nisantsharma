@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    flex-wrap: wrap;  /* Allows items to wrap to the next row */
+    justify-content: space-around;  /* Evenly spaces items in a row */
+}
+
+.item {
+    flex: 0 1 auto;  /* Items maintain their natural size and wrap if necessary */
+    margin: 10px;  /* Optional: adds space around each item */
+}
